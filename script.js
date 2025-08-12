@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_API_KEY"; // Replace with your Musixmatch API key
+const API_KEY = "";
 const BASE_URL = "https://api.musixmatch.com/ws/1.1/";
 
 document.getElementById("searchBtn").addEventListener("click", searchSongs);
@@ -53,3 +53,4 @@ function getLyrics(trackId) {
             document.getElementById("lyrics").innerText = "Error fetching lyrics.";
         });
 }
+
